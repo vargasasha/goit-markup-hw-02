@@ -122,6 +122,11 @@ body {
   cursor: pointer;
 }
 
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: var(--accent-color);
+}
+
 .about {
 }
 .about-title {
@@ -259,6 +264,13 @@ body {
   border-radius: 4px;
   cursor: pointer;
 }
+
+.filter-btn:hover,
+.filter-btn:focus {
+color: var(--main-background-color);
+background-color: var(--accent-color);
+}
+
 .portfolio-list {
 }
 .portfolio-item {
@@ -278,7 +290,4 @@ body {
   color: var(--main-text-color);
 }
 
-.filter-current {
-  background: var(--accent-color);
-  color: var(--main-background-color);
-}
+
